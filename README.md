@@ -5,7 +5,7 @@
 
 ## 🏆 結果
 - 最終順位：929チーム中 133位　上位15％（リーダーボード、2025年7月17日時点）
-- 使用モデル：スタッキング（ベースモデル：LGBMClassifier + XGBoost　メタモデル：RandomForestClassifier）
+- 使用モデル：スタッキング（ベースモデル：MultinomialNB + XGBoost　メタモデル：RidgeCV）
 - 評価指標：F1スコア
 - 最終スコア：0.83481
 
